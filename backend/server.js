@@ -28,7 +28,7 @@ const startApp = async () => {
   try {
     await connectDB()
     
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, () => {
   console.log(
     `Server is Up and Running on port http://localhost:${PORT}☑️`.green.bold
       .underline,
